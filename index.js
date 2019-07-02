@@ -25,7 +25,7 @@ function iLoveTheBeatles (my_number) {
     do {
       my_array.push("I love the Beatles!")
       my_number++
-    } while (my_number < 15);
+    } while (my_number < 15-1);
   } 
   return my_array
 }
