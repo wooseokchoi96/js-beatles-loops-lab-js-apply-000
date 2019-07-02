@@ -7,7 +7,7 @@ function theBeatlesPlay (musicians, instruments) {
       my_array.push(`${musicians[counter]} plays ${instruments[counter]}`);
     }
   }
-  return my_array
+  return my_array;
 }
 
 function johnLennonFacts (my_facts) {
@@ -16,18 +16,18 @@ function johnLennonFacts (my_facts) {
     my_facts[counter] = my_facts[counter] + '!!!';
     counter++;
   }
-  return my_facts
+  return my_facts;
 }
 
 function iLoveTheBeatles (my_number) {
-  var my_array = []
+  var my_array = [];
   if (isNaN(my_number)) {
     if (my_number < 15) {
       do {
         my_array.push("I love the Beatles!");
-        my_number++
-      } while (my_number < 15-1);
+        my_number++;
+      } while (my_number < 15-1)
     }
   } 
-  return my_array
+  return my_array;
 }
