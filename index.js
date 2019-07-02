@@ -21,7 +21,6 @@ function johnLennonFacts (my_facts) {
 
 function iLoveTheBeatles (my_number) {
   var my_array = []
-  var counter = 1;
   if (my_number < 15) {
       do {
         my_array.push("I love the Beatles!")
