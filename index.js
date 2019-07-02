@@ -21,11 +21,11 @@ function johnLennonFacts (my_facts) {
 
 function iLoveTheBeatles (my_number) {
   var my_array = []
-  if (my_number < 15) {
-      do {
-        my_array.push("I love the Beatles!")
-        counter++
-      } while (counter < my_number);
-  }  
+  if (isNaN(my_number)) {
+    do {
+      my_array.push("I love the Beatles!")
+      my_number++
+    } while (my_number < 15);
+  } 
   return my_array
 }
